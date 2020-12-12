@@ -35,6 +35,14 @@ class TableViewController: UITableViewController {
         cell.artistNameLabel.text = track.artist
         cell.priceLabel.text = "\(track.price)"
         
+        NetworkManager.getAlbumArt(url: track.artworkURL) { (imageData) in
+            if let imageData = imageData {
+                DispatchQueue.main.async {
+                    cell.imageView?.image = UIImage(data: imageData)
+                }
+            }
+        }
+        
         return cell
     }
     
