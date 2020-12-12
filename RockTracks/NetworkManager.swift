@@ -33,9 +33,10 @@ class NetworkManager {
                             let artworkURL = result["artworkUrl100"] as? String
                             let duration = result["trackTimeMillis"] as? Int
                             let releaseDate = result["releaseDate"] as? String
+                            let trackViewUrl = result["trackViewUrl"] as? String
                             
-                            if let name = name, let artist = artist, let price = price, let artworkURL = artworkURL, let duration = duration, let releaseDate = releaseDate {
-                                let track = Track(name: name, artist: artist, price: price, artworkURL: artworkURL, duration: duration, releaseDate: releaseDate)
+                            if let name = name, let artist = artist, let price = price, let artworkURL = artworkURL, let duration = duration, let releaseDate = releaseDate, let trackViewUrl = trackViewUrl {
+                                let track = Track(name: name, artist: artist, price: price, artworkURL: artworkURL, duration: duration, releaseDate: releaseDate, trackViewUrl: trackViewUrl)
                                 tracks.append(track)
                             }
                             

@@ -14,13 +14,15 @@ class Track {
     let artworkURL: String
     let duration: Int
     let releaseDate: String
+    let trackViewUrl: String
     
-    init(name: String, artist: String, price: Double, artworkURL: String, duration: Int, releaseDate: String) {
+    init(name: String, artist: String, price: Double, artworkURL: String, duration: Int, releaseDate: String, trackViewUrl: String) {
         self.name = name
         self.artist = artist
         self.price = price
         self.artworkURL = artworkURL
         self.duration = duration
         self.releaseDate = releaseDate
+        self.trackViewUrl = trackViewUrl
     }
 }
