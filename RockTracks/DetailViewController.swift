@@ -31,6 +31,14 @@ class DetailViewController: UIViewController {
         
         formatDuration()
         
+        NetworkManager.getAlbumArt(url: track.artworkURL) { (imageData) in
+            if let imageData = imageData {
+                DispatchQueue.main.async {
+                    self.albumArtImageView.image = UIImage(data: imageData)
+                }
+            }
+        }
+        
     }
     
     func formatPrice() {
