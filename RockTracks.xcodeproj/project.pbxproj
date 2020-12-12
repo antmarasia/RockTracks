@@ -16,6 +16,8 @@
 		925577E225853EC900581178 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925577E125853EC900581178 /* TableViewController.swift */; };
 		925577E9258541AB00581178 /* TrackTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925577E8258541AB00581178 /* TrackTableViewCell.swift */; };
 		925577F72585466D00581178 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925577F62585466D00581178 /* DetailViewController.swift */; };
+		925577FC2585482A00581178 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925577FB2585482A00581178 /* Track.swift */; };
+		9255780125854A4700581178 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9255780025854A4700581178 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		925577E125853EC900581178 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		925577E8258541AB00581178 /* TrackTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackTableViewCell.swift; sourceTree = "<group>"; };
 		925577F62585466D00581178 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		925577FB2585482A00581178 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		9255780025854A4700581178 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,7 @@
 				925577B625853CD400581178 /* Info.plist */,
 				925577E125853EC900581178 /* TableViewController.swift */,
 				925577F62585466D00581178 /* DetailViewController.swift */,
+				9255780025854A4700581178 /* NetworkManager.swift */,
 			);
 			path = RockTracks;
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 		925577E72585415700581178 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				925577FB2585482A00581178 /* Track.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -277,7 +283,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9255780125854A4700581178 /* NetworkManager.swift in Sources */,
 				925577E225853EC900581178 /* TableViewController.swift in Sources */,
+				925577FC2585482A00581178 /* Track.swift in Sources */,
 				925577A925853CD200581178 /* AppDelegate.swift in Sources */,
 				925577E9258541AB00581178 /* TrackTableViewCell.swift in Sources */,
 				925577F72585466D00581178 /* DetailViewController.swift in Sources */,
