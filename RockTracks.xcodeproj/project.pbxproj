@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		925577A925853CD200581178 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925577A825853CD200581178 /* AppDelegate.swift */; };
-		925577AB25853CD200581178 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925577AA25853CD200581178 /* SceneDelegate.swift */; };
 		925577AD25853CD200581178 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925577AC25853CD200581178 /* ViewController.swift */; };
 		925577B025853CD200581178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 925577AE25853CD200581178 /* Main.storyboard */; };
 		925577B225853CD400581178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 925577B125853CD400581178 /* Assets.xcassets */; };
@@ -37,7 +36,6 @@
 /* Begin PBXFileReference section */
 		925577A525853CD200581178 /* RockTracks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockTracks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		925577A825853CD200581178 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		925577AA25853CD200581178 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		925577AC25853CD200581178 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		925577AF25853CD200581178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		925577B125853CD400581178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				925577A825853CD200581178 /* AppDelegate.swift */,
-				925577AA25853CD200581178 /* SceneDelegate.swift */,
 				925577AC25853CD200581178 /* ViewController.swift */,
 				925577AE25853CD200581178 /* Main.storyboard */,
 				925577B125853CD400581178 /* Assets.xcassets */,
@@ -260,7 +257,6 @@
 			files = (
 				925577AD25853CD200581178 /* ViewController.swift in Sources */,
 				925577A925853CD200581178 /* AppDelegate.swift in Sources */,
-				925577AB25853CD200581178 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +434,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RockTracks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,6 +453,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RockTracks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
