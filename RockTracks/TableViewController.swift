@@ -33,7 +33,7 @@ class TableViewController: UITableViewController {
 
         cell.tackNameLabel.text = track.name
         cell.artistNameLabel.text = track.artist
-        cell.priceLabel.text = "\(track.price)"
+        cell.priceLabel.text = getFormattedPrice(track: track)
         
         NetworkManager.getAlbumArt(url: track.artworkURL) { (imageData) in
             if let imageData = imageData {
@@ -85,6 +85,18 @@ class TableViewController: UITableViewController {
                 }
             }
         }
+    }
+    
+    func getFormattedPrice(track :Track) -> String? {
+        let currencyFormatter = NumberFormatter()
+        currencyFormatter.usesGroupingSeparator = true
+        currencyFormatter.numberStyle = .currency
+        currencyFormatter.locale = Locale.current
+        
+        if let priceString = currencyFormatter.string(from: NSNumber(value: track.price)) {
+            return priceString
+        }
+        return "\(track.price)"
     }
 
 }
