@@ -73,7 +73,9 @@ class DetailViewController: UIViewController {
     }
     
     @IBAction func moreDetailButtonPressed(_ sender: Any) {
-        
+        if let url = URL(string: track.trackViewUrl) {
+            UIApplication.shared.open(url)
+        }
     }
     
 }
