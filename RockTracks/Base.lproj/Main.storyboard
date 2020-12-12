@@ -91,6 +91,9 @@
                             <outlet property="delegate" destination="cc1-oC-Zfh" id="Rh1-nV-tLP"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <segue destination="8Hz-pD-OQf" kind="show" identifier="showDetailVC" id="yed-XD-uiX"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vrN-9S-jJJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -101,17 +104,17 @@
             <objects>
                 <viewController id="8Hz-pD-OQf" customClass="DetailViewController" customModule="RockTracks" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lEq-Qt-WcQ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Vgy-5Z-cPi">
-                                <rect key="frame" x="0.0" y="44" width="414" height="300"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="300"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="300" id="yX2-eM-6UQ"/>
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XnR-8S-LJz">
-                                <rect key="frame" x="0.0" y="344" width="414" height="518"/>
+                                <rect key="frame" x="0.0" y="300" width="414" height="508"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Track Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wjW-Lx-2ZI">
                                         <rect key="frame" x="20" y="20" width="374" height="21"/>
@@ -186,6 +189,7 @@
                             <constraint firstItem="Vgy-5Z-cPi" firstAttribute="top" secondItem="hOR-Re-e4F" secondAttribute="top" id="xcL-Zh-chJ"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Nyc-Zx-byd"/>
                     <connections>
                         <outlet property="albumArtImageView" destination="Vgy-5Z-cPi" id="Iju-Og-CW0"/>
                         <outlet property="artistNameLabel" destination="jo6-3j-7Lk" id="ls4-vu-bYs"/>
