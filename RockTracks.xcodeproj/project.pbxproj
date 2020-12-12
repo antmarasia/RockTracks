@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		925577A925853CD200581178 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925577A825853CD200581178 /* AppDelegate.swift */; };
+		925577AB25853CD200581178 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925577AA25853CD200581178 /* SceneDelegate.swift */; };
+		925577AD25853CD200581178 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925577AC25853CD200581178 /* ViewController.swift */; };
+		925577B025853CD200581178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 925577AE25853CD200581178 /* Main.storyboard */; };
+		925577B225853CD400581178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 925577B125853CD400581178 /* Assets.xcassets */; };
+		925577B525853CD400581178 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 925577B325853CD400581178 /* LaunchScreen.storyboard */; };
+		925577C025853CD400581178 /* RockTracksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925577BF25853CD400581178 /* RockTracksTests.swift */; };
+		925577CB25853CD400581178 /* RockTracksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925577CA25853CD400581178 /* RockTracksUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		925577BC25853CD400581178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9255779D25853CD200581178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 925577A425853CD200581178;
+			remoteInfo = RockTracks;
+		};
+		925577C725853CD400581178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9255779D25853CD200581178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 925577A425853CD200581178;
+			remoteInfo = RockTracks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		925577A525853CD200581178 /* RockTracks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockTracks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		925577A825853CD200581178 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		925577AA25853CD200581178 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		925577AC25853CD200581178 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		925577AF25853CD200581178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		925577B125853CD400581178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		925577B425853CD400581178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		925577B625853CD400581178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		925577BB25853CD400581178 /* RockTracksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockTracksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		925577BF25853CD400581178 /* RockTracksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockTracksTests.swift; sourceTree = "<group>"; };
+		925577C125853CD400581178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		925577C625853CD400581178 /* RockTracksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockTracksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		925577CA25853CD400581178 /* RockTracksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockTracksUITests.swift; sourceTree = "<group>"; };
+		925577CC25853CD400581178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		925577A225853CD200581178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925577B825853CD400581178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925577C325853CD400581178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9255779C25853CD200581178 = {
+			isa = PBXGroup;
+			children = (
+				925577A725853CD200581178 /* RockTracks */,
+				925577BE25853CD400581178 /* RockTracksTests */,
+				925577C925853CD400581178 /* RockTracksUITests */,
+				925577A625853CD200581178 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		925577A625853CD200581178 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				925577A525853CD200581178 /* RockTracks.app */,
+				925577BB25853CD400581178 /* RockTracksTests.xctest */,
+				925577C625853CD400581178 /* RockTracksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		925577A725853CD200581178 /* RockTracks */ = {
+			isa = PBXGroup;
+			children = (
+				925577A825853CD200581178 /* AppDelegate.swift */,
+				925577AA25853CD200581178 /* SceneDelegate.swift */,
+				925577AC25853CD200581178 /* ViewController.swift */,
+				925577AE25853CD200581178 /* Main.storyboard */,
+				925577B125853CD400581178 /* Assets.xcassets */,
+				925577B325853CD400581178 /* LaunchScreen.storyboard */,
+				925577B625853CD400581178 /* Info.plist */,
+			);
+			path = RockTracks;
+			sourceTree = "<group>";
+		};
+		925577BE25853CD400581178 /* RockTracksTests */ = {
+			isa = PBXGroup;
+			children = (
+				925577BF25853CD400581178 /* RockTracksTests.swift */,
+				925577C125853CD400581178 /* Info.plist */,
+			);
+			path = RockTracksTests;
+			sourceTree = "<group>";
+		};
+		925577C925853CD400581178 /* RockTracksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				925577CA25853CD400581178 /* RockTracksUITests.swift */,
+				925577CC25853CD400581178 /* Info.plist */,
+			);
+			path = RockTracksUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		925577A425853CD200581178 /* RockTracks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 925577CF25853CD400581178 /* Build configuration list for PBXNativeTarget "RockTracks" */;
+			buildPhases = (
+				925577A125853CD200581178 /* Sources */,
+				925577A225853CD200581178 /* Frameworks */,
+				925577A325853CD200581178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RockTracks;
+			productName = RockTracks;
+			productReference = 925577A525853CD200581178 /* RockTracks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		925577BA25853CD400581178 /* RockTracksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 925577D225853CD400581178 /* Build configuration list for PBXNativeTarget "RockTracksTests" */;
+			buildPhases = (
+				925577B725853CD400581178 /* Sources */,
+				925577B825853CD400581178 /* Frameworks */,
+				925577B925853CD400581178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				925577BD25853CD400581178 /* PBXTargetDependency */,
+			);
+			name = RockTracksTests;
+			productName = RockTracksTests;
+			productReference = 925577BB25853CD400581178 /* RockTracksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		925577C525853CD400581178 /* RockTracksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 925577D525853CD400581178 /* Build configuration list for PBXNativeTarget "RockTracksUITests" */;
+			buildPhases = (
+				925577C225853CD400581178 /* Sources */,
+				925577C325853CD400581178 /* Frameworks */,
+				925577C425853CD400581178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				925577C825853CD400581178 /* PBXTargetDependency */,
+			);
+			name = RockTracksUITests;
+			productName = RockTracksUITests;
+			productReference = 925577C625853CD400581178 /* RockTracksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9255779D25853CD200581178 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					925577A425853CD200581178 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					925577BA25853CD400581178 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 925577A425853CD200581178;
+					};
+					925577C525853CD400581178 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 925577A425853CD200581178;
+					};
+				};
+			};
+			buildConfigurationList = 925577A025853CD200581178 /* Build configuration list for PBXProject "RockTracks" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9255779C25853CD200581178;
+			productRefGroup = 925577A625853CD200581178 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				925577A425853CD200581178 /* RockTracks */,
+				925577BA25853CD400581178 /* RockTracksTests */,
+				925577C525853CD400581178 /* RockTracksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		925577A325853CD200581178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925577B525853CD400581178 /* LaunchScreen.storyboard in Resources */,
+				925577B225853CD400581178 /* Assets.xcassets in Resources */,
+				925577B025853CD200581178 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925577B925853CD400581178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925577C425853CD400581178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		925577A125853CD200581178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925577AD25853CD200581178 /* ViewController.swift in Sources */,
+				925577A925853CD200581178 /* AppDelegate.swift in Sources */,
+				925577AB25853CD200581178 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925577B725853CD400581178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925577C025853CD400581178 /* RockTracksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925577C225853CD400581178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925577CB25853CD400581178 /* RockTracksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		925577BD25853CD400581178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 925577A425853CD200581178 /* RockTracks */;
+			targetProxy = 925577BC25853CD400581178 /* PBXContainerItemProxy */;
+		};
+		925577C825853CD400581178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 925577A425853CD200581178 /* RockTracks */;
+			targetProxy = 925577C725853CD400581178 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		925577AE25853CD200581178 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				925577AF25853CD200581178 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		925577B325853CD400581178 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				925577B425853CD400581178 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		925577CD25853CD400581178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		925577CE25853CD400581178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		925577D025853CD400581178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RockTracks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthonymarasia.RockTracks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		925577D125853CD400581178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RockTracks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthonymarasia.RockTracks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		925577D325853CD400581178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RockTracksTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthonymarasia.RockTracksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RockTracks.app/RockTracks";
+			};
+			name = Debug;
+		};
+		925577D425853CD400581178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RockTracksTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthonymarasia.RockTracksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RockTracks.app/RockTracks";
+			};
+			name = Release;
+		};
+		925577D625853CD400581178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RockTracksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthonymarasia.RockTracksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RockTracks;
+			};
+			name = Debug;
+		};
+		925577D725853CD400581178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RockTracksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthonymarasia.RockTracksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RockTracks;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		925577A025853CD200581178 /* Build configuration list for PBXProject "RockTracks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925577CD25853CD400581178 /* Debug */,
+				925577CE25853CD400581178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		925577CF25853CD400581178 /* Build configuration list for PBXNativeTarget "RockTracks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925577D025853CD400581178 /* Debug */,
+				925577D125853CD400581178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		925577D225853CD400581178 /* Build configuration list for PBXNativeTarget "RockTracksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925577D325853CD400581178 /* Debug */,
+				925577D425853CD400581178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		925577D525853CD400581178 /* Build configuration list for PBXNativeTarget "RockTracksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925577D625853CD400581178 /* Debug */,
+				925577D725853CD400581178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9255779D25853CD200581178 /* Project object */;
+}
