@@ -14,6 +14,7 @@ class TrackTableViewCell: UITableViewCell {
     @IBOutlet weak var artistNameLabel: UILabel!
     @IBOutlet weak var priceLabel: UILabel!
     
+    var initialImageSet = false
 
     override func awakeFromNib() {
         super.awakeFromNib()

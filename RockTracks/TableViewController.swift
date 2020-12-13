@@ -39,6 +39,12 @@ class TableViewController: UITableViewController {
             if let imageData = imageData {
                 DispatchQueue.main.async {
                     cell.imageView?.image = UIImage(data: imageData)
+                    
+                    //Fixes image not being displayed initially sometimes
+                    if !cell.initialImageSet {
+                        tableView.reloadRows(at: [indexPath], with: .none)
+                        cell.initialImageSet = true
+                    }
                 }
             }
         }
