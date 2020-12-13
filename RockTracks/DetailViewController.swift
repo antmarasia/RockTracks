@@ -6,11 +6,14 @@
 //
 
 import UIKit
+import AVFoundation
 
 class DetailViewController: UIViewController {
     
     var track: Track!
-
+    
+    private var audioPlayer: AVPlayer?
+    
     @IBOutlet weak var albumArtImageView: UIImageView!
     @IBOutlet weak var trackNameLabel: UILabel!
     @IBOutlet weak var artistNameLabel: UILabel!
@@ -18,10 +21,11 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var durationLabel: UILabel!
     @IBOutlet weak var releaseDateLabel: UILabel!
     @IBOutlet weak var moreDetailsButton: UIButton!
+    @IBOutlet weak var playButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         self.trackNameLabel.text = track.name
         self.artistNameLabel.text = track.artist
         
@@ -59,7 +63,7 @@ class DetailViewController: UIViewController {
         let isoFormatter = ISO8601DateFormatter()
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "MM/dd/yyyy"
-
+        
         if let date = isoFormatter.date(from: track.releaseDate) {
             self.releaseDateLabel.text = dateFormatter.string(from: date)
         }
@@ -75,6 +79,15 @@ class DetailViewController: UIViewController {
     @IBAction func moreDetailButtonPressed(_ sender: Any) {
         if let url = URL(string: track.trackViewUrl) {
             UIApplication.shared.open(url)
+        }
+    }
+    
+    @IBAction func playButtonPressed(_ sender: Any) {
+        if let url = URL(string: track.audioPreviewUrl) {
+            let asset = AVURLAsset(url: url)
+            let item = AVPlayerItem(asset: asset)
+            audioPlayer = AVPlayer(playerItem: item)
+            audioPlayer?.play()
         }
     }
     

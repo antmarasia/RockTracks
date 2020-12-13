@@ -15,8 +15,9 @@ class Track {
     let duration: Int
     let releaseDate: String
     let trackViewUrl: String
+    let audioPreviewUrl: String
     
-    init(name: String, artist: String, price: Double, artworkURL: String, duration: Int, releaseDate: String, trackViewUrl: String) {
+    init(name: String, artist: String, price: Double, artworkURL: String, duration: Int, releaseDate: String, trackViewUrl: String, audioPreviewUrl: String) {
         self.name = name
         self.artist = artist
         self.price = price
@@ -24,5 +25,6 @@ class Track {
         self.duration = duration
         self.releaseDate = releaseDate
         self.trackViewUrl = trackViewUrl
+        self.audioPreviewUrl = audioPreviewUrl
     }
 }
