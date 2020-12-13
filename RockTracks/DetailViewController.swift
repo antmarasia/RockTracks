@@ -26,6 +26,8 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.title =  "Details"
+        
         self.trackNameLabel.text = track.name
         self.artistNameLabel.text = track.artist
         
